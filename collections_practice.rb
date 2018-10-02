@@ -36,9 +36,9 @@ end
 def add_s(array)
   array.each_with_index do |a|
     if a != 1
-    a += "s"
-    array << a 
+      a += "s"
   end
+  array << a 
 end   
 
 
